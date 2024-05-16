@@ -1,0 +1,122 @@
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-color: rgba(95, 158, 160, 0.421);
+}
+
+.navbar{
+    background-color: cadetblue;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.container-title{
+    display: grid;
+    grid-column: 1/2;
+    padding-left: 15px;
+}
+
+#navbarNavDropdown{
+    grid-column: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-nav{
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+:root{
+    --btWhite: #000;
+    --btGreen-100: #000;
+    --btGreen-200: #000;
+    --btGreen-300: #000;
+ 
+}
+
+.card{
+    background-color: rgba(255, 255, 255, 0.507);
+}
+
+.navbar-brand img{
+    width:80px;
+}
+
+.carousel-item{
+    height: 500px;
+}
+
+.carousel-item img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.titleSection1{
+    display: flex;
+    justify-content: center;
+    margin-top:5rem;
+}
+
+.titleSection2{
+    display: flex;
+    justify-content: center;
+}
+
+.card-text span{
+    font-weight: bold;
+}
+
+.comprar{
+    background-color: green;
+}
+
+.bottom{
+    background-color: cadetblue;
+    width: 100%;
+    height: 80px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.bottom-content{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.bottom-content p{
+    grid-column: 2/3;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 0;
+}
+
+.icones{
+    grid-column: 3/4;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.icones a{
+    margin-right: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.icones a i{
+    font-size: 35px;
+    color: black;
+}
